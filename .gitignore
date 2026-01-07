@@ -1,0 +1,43 @@
+# ===============================
+# Python / ML Project .gitignore
+# ===============================
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large raw data (keep processed .npy if needed)
+*.csv
+*.zip
+*.tar
+*.gz
+
+# Model training artifacts (OPTIONAL)
+# Uncomment if models are too large
+# *.pt
+# *.pkl
+
+# IDE specific
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
